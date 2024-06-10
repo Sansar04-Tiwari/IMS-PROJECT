@@ -1,10 +1,11 @@
 import React from 'react'
+import Sidebar from './siderbar/Sidebar'
 
 const Home = () => {
   return (
-    <div>
-      <h1>hello from home</h1>
-    </div>
+    <>
+    <h1>hello from home Page</h1>
+    </>
   )
 }
 
