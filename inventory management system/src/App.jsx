@@ -9,10 +9,7 @@ function App() {
   return (
    <div className="wrapper">
    <Sidebar/>
-   {/* <Home/>
-   
-    {/* <ListProduct/> */}
-    {/* <AddProduct/> */}
+  
    </div>
   )
 }
