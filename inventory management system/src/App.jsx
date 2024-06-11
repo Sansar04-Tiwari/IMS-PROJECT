@@ -2,6 +2,10 @@ import './App.css'
 
 import Sidebar from './components/siderbar/Sidebar'
 import Header from './components/Header/Header'
+import  Footer from './components/Footer/Footer'
+import  AddProduct from './components/Product/AddProduct'
+
+
 
 
 function App() {
@@ -11,6 +15,9 @@ function App() {
     <div className="wrapper">
       <Header />
       <Sidebar />
+      <AddProduct/>
+      <Footer/>
+
     </div>
   )
 }
