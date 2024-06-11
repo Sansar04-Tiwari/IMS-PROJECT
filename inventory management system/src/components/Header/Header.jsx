@@ -1,5 +1,5 @@
 import React from 'react'
-import user from '../../assets/images/user/1.png'
+import user from '../../assets/images/user/1.jpg'
 
 function Header() {
   return (
