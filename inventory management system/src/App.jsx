@@ -1,14 +1,17 @@
 import './App.css'
-import Home from './components/Home'
-import AddProduct from './components/Product/AddProduct'
-import ListProduct from './components/Product/ListProduct'
+
 import Sidebar from './components/siderbar/Sidebar'
+import Header from './components/Header/Header'
+import SaleList from './components/Sale/SaleList'
+
 
 function App() {
 
   return (
    <div className="wrapper">
-   <Sidebar/>
+    {/* <Header/>
+   <Sidebar/> */}
+   <SaleList/>
   
    </div>
   )

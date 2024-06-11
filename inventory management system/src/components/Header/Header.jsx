@@ -26,22 +26,7 @@ function Header() {
                       </button>
                       <div className="collapse navbar-collapse" id="navbarSupportedContent">
                           <ul className="navbar-nav ml-auto navbar-list align-items-center">
-                              <li className="nav-item nav-icon dropdown">
-                                  <a href="#" className="search-toggle dropdown-toggle btn border add-btn" id="dropdownMenuButton02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                      <img src="../assets/images/small/flag-01.png" alt="img-flag" className="img-fluid image-flag mr-2"/>En
-                                  </a>
-                                  <div className="iq-sub-dropdown dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                                      <div className="card shadow-none m-0">
-                                          <div className="card-body p-3">
-                                              <a className="iq-sub-card" href="#"><img src="../assets/images/small/flag-02.png" alt="img-flag" className="img-fluid mr-2"/>French</a>
-                                              <a className="iq-sub-card" href="#"><img src="../assets/images/small/flag-03.png" alt="img-flag" className="img-fluid mr-2"/>Spanish</a>
-                                              <a className="iq-sub-card" href="#"><img src="../assets/images/small/flag-04.png" alt="img-flag" className="img-fluid mr-2"/>Italian</a>
-                                              <a className="iq-sub-card" href="#"><img src="../assets/images/small/flag-05.png" alt="img-flag" className="img-fluid mr-2"/>German</a>
-                                              <a className="iq-sub-card" href="#"><img src="../assets/images/small/flag-06.png" alt="img-flag" className="img-fluid mr-2"/>Japanese</a>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </li>
+                             
                               <li>
                                   <a href="#" className="btn border add-btn shadow-none mx-2 d-none d-md-block" data-toggle="modal" data-target="#new-order"><i className="las la-plus mr-2"></i>New
                                       Order</a>
