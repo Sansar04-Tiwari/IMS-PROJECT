@@ -3,6 +3,8 @@ import React from 'react'
 const SaleList = () => {
   return (
     <>
+        <div class="content-page">
+
       <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
@@ -267,6 +269,7 @@ const SaleList = () => {
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
     </>
