@@ -1,4 +1,5 @@
 import React from 'react'
+
 import '../../assets/css/styles.css'
 import logo from '../../assets/images/logo.png'
 
@@ -9,13 +10,13 @@ import '../../assets/vendor/line-awesome/dist/line-awesome/css/line-awesome.min.
 import '../../assets/vendor/remixicon/fonts/remixicon.css';
 
 
-
 const Sidebar = () => {
+
+  
   return (
    <>
    
     <div className="wrapper">
-
       
       <div className="iq-sidebar  sidebar-default ">
           <div className="iq-sidebar-logo d-flex align-items-center justify-content-between">
@@ -24,6 +25,7 @@ const Sidebar = () => {
               </a>
               <div className="iq-menu-bt-sidebar ml-0">
                   <i className="las la-bars wrapper-menu"></i>
+                  
               </div>
           </div>
           <div className="data-scrollbar" data-scroll="1">
@@ -1217,6 +1219,8 @@ const Sidebar = () => {
     </div>
       </div>
     </div>
+
+    
    </>
   )
 }
