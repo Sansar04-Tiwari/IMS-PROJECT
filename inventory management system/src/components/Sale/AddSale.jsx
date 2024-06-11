@@ -3,6 +3,8 @@ import React from 'react'
 const AddSale = () => {
   return (
     <>
+        <div class="content-page">
+
      <div class="container-fluid add-form-list">
         <div class="row">
             <div class="col-sm-12">
@@ -112,6 +114,7 @@ const AddSale = () => {
                 </div>
             </div>
         </div>
+    </div>
     </div>
     
   
