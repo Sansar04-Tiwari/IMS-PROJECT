@@ -106,7 +106,7 @@ function Sidebar() {
                             </ul>
                         </li>
                         
-                        <li className=" ">
+                        {/* <li className=" ">
                             <a href="#purchase" className="collapsed" data-toggle="collapse" aria-expanded="false">
                                 <svg className="svg-icon" id="p-dash5" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeLinecap="2" stroke-linecap="round" strokeLinejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
                                     <line x1="1" y1="10" x2="23" y2="10"></line>
@@ -151,7 +151,7 @@ function Sidebar() {
                                     </a>
                                 </li>
                             </ul>
-                        </li>
+                        </li> */}
                         <li className=" ">
                             <a href="#people" className="collapsed" data-toggle="collapse" aria-expanded="false">
                                 <svg className="svg-icon" id="p-dash8" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeLinecap="2" stroke-linecap="round" strokeLinejoin="round">
@@ -163,7 +163,7 @@ function Sidebar() {
                                 </svg>
                             </a>
                             <ul id="people" className="iq-submenu collapse" data-parent="#iq-sidebar-toggle">
-                                <li className="">
+                                {/* <li className="">
                                     <a href="../backend/page-list-customers.html">
                                         <i className="las la-minus"></i><span>Customers</span>
                                     </a>
@@ -172,8 +172,8 @@ function Sidebar() {
                                     <a href="../backend/page-add-customers.html">
                                         <i className="las la-minus"></i><span>Add Customers</span>
                                     </a>
-                                </li>
-                                <li className="">
+                                </li> */}
+                                {/* <li className="">
                                     <a href="../backend/page-list-users.html">
                                         <i className="las la-minus"></i><span>Users</span>
                                     </a>
@@ -182,16 +182,16 @@ function Sidebar() {
                                     <a href="../backend/page-add-users.html">
                                         <i className="las la-minus"></i><span>Add Users</span>
                                     </a>
-                                </li>
+                                </li> */}
                                 <li className="">
-                                    <a href="../backend/page-list-suppliers.html">
+                                    <Link to='/supplier'>
                                         <i className="las la-minus"></i><span>Suppliers</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="">
-                                    <a href="../backend/page-add-supplier.html">
-                                        <i className="las la-minus"></i><span>Add Suppliers</span>
-                                    </a>
+                                <Link to='/addsupplier'>
+                                        <i className="las la-minus"></i><span>AddSuppliers</span>
+                                    </Link>
                                 </li>
                             </ul>
                         </li>
