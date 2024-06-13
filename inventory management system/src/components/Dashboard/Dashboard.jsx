@@ -9,7 +9,7 @@ const Dashboard = () => {
                         <div className="col-lg-4">
                             <div className="card card-transparent card-block card-stretch card-height border-none">
                                 <div className="card-body p-0 mt-lg-2 mt-0">
-                                    <h3 className="mb-3">Hi Graham, Good Morning</h3>
+                                    <h3 className="mb-3">Hi , Good Morning</h3>
                                     <p className="mb-0 mr-4">Your dashboard gives you views of key performance or business process.</p>
                                 </div>
                             </div>
@@ -43,7 +43,7 @@ const Dashboard = () => {
                                                     <img src="../assets/images/product/2.png" className="img-fluid" alt="image" />
                                                 </div>
                                                 <div>
-                                                    <p className="mb-2">Total Cost</p>
+                                                    <p className="mb-2">Inventory</p>
                                                     <h4>$ 4598</h4>
                                                 </div>
                                             </div>
@@ -75,7 +75,7 @@ const Dashboard = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6">
+                        {/* <div className="col-lg-6">
                             <div className="card card-block card-stretch card-height">
                                 <div className="card-header d-flex justify-content-between">
                                     <div className="header-title">
@@ -100,10 +100,10 @@ const Dashboard = () => {
                                     <div id="layout1-chart1"></div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="card card-block card-stretch card-height">
-                                <div className="card-header d-flex align-items-center justify-content-between">
+                        </div> */}
+                        {/* <div className="col-lg-6"> */}
+                            {/* <div className="card card-block card-stretch card-height"> */}
+                                {/* <div className="card-header d-flex align-items-center justify-content-between">
                                     <div className="header-title">
                                         <h4 className="card-title">Revenue Vs Cost</h4>
                                     </div>
@@ -121,13 +121,13 @@ const Dashboard = () => {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div className="card-body">
+                                </div> */}
+                                {/* <div className="card-body"> */}
                                     {/* <div id="layout1-chart-2" style={{min-height:   +360px;}}></div> */}
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-8">
+                                {/* </div> */}
+                            {/* </div> */}
+                        {/* </div> */}
+                        {/* <div className="col-lg-8">
                             <div className="card card-block card-stretch card-height">
                                 <div className="card-header d-flex align-items-center justify-content-between">
                                     <div className="header-title">
@@ -205,8 +205,8 @@ const Dashboard = () => {
                                     </ul>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-lg-4">
+                        </div> */}
+                        {/* <div className="col-lg-4">
                             <div className="card card-transparent card-block card-stretch mb-4">
                                 <div className="card-header d-flex align-items-center justify-content-between p-0">
                                     <div className="header-title">
@@ -245,7 +245,7 @@ const Dashboard = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="col-lg-4">
                             <div className="card card-block card-stretch card-height-helf">
                                 <div className="card-body">
@@ -269,7 +269,7 @@ const Dashboard = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div id="layout1-chart-3" className="layout-chart-1"></div>
+                                    {/* <div id="layout1-chart-3" className="layout-chart-1"></div> */}
                                 </div>
                             </div>
                             <div className="card card-block card-stretch card-height-helf">
@@ -294,7 +294,7 @@ const Dashboard = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div id="layout1-chart-4" className="layout-chart-2"></div>
+                                    {/* <div id="layout1-chart-4" className="layout-chart-2"></div> */}
                                 </div>
                             </div>
                         </div>

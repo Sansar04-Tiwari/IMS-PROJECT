@@ -6,6 +6,10 @@ import Footer from './components/Footer/Footer'
 import AddProduct from './components/Product/AddProduct'
 import ListProduct from './components/Product/ListProduct'
 import Dashboard from './components/Dashboard/Dashboard'
+import ListCategory from './components/Categories/ListCategory'
+import AddCategory from './components/Categories/AddCategory'
+
+
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import SignIn from './components/Forms/SignIn'
 import SignUp from './components/Forms/SignUp'
@@ -19,6 +23,7 @@ function App() {
     <div className="wrapper">
       <BrowserRouter>
         <Routes >
+
           <Route path='/' element={<Layout />}>
             <Route path='' element={<Dashboard />} />
             <Route path='listProduct' element={<ListProduct />} />
