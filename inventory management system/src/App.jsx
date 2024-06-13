@@ -11,6 +11,10 @@ import AddCategory from './components/Categories/AddCategory'
 
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import SignIn from './components/Forms/SignIn'
+import SignUp from './components/Forms/SignUp'
+import ForgotPassword from './components/Forms/ForgotPassword'
+import Layout from './Layout'
 
 function App() {
 
@@ -18,18 +22,17 @@ function App() {
 
     <div className="wrapper">
       <BrowserRouter>
-        <Header />
-        <Sidebar />
         <Routes >
-          <Route path='/' element={<Dashboard />} />
-          <Route path='listProduct' element={<ListProduct/>}/>
-          <Route path='addProduct' element={<AddProduct/>}/>
-          <Route path='listcategory' element={<ListCategory/>}/>
-          <Route path='addcategory' element={<AddCategory/>}/>
 
-
+          <Route path='/' element={<Layout />}>
+            <Route path='' element={<Dashboard />} />
+            <Route path='listProduct' element={<ListProduct />} />
+            <Route path='addProduct' element={<AddProduct />} />
+          </Route>
+          <Route path='signIn' element={<SignIn />} />
+          <Route path='signUp' element={<SignUp />} />
+          <Route path='forgotPassword' element={<ForgotPassword />} />
         </Routes>
-        <Footer />
       </BrowserRouter>
     </div>
   )

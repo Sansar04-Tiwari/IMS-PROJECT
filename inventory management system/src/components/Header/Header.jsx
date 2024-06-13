@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import user from '../../assets/images/user/1.jpg'
+import profileBg from '../../assets/images/page-img/profile-bg.jpg'
+import user1 from '../../assets/images/user/1.png'
+import { Link } from 'react-router-dom'
 
 function Header() {
+
   return (
     <div className="iq-top-navbar">
           <div className="iq-navbar-custom">
@@ -189,15 +193,16 @@ function Header() {
                                       <div className="card shadow-none m-0">
                                           <div className="card-body p-0 text-center">
                                               <div className="media-body profile-detail text-center">
-                                                  <img src="../assets/images/page-img/profile-bg.jpg" alt="profile-bg" className="rounded-top img-fluid mb-4"/>
-                                                  <img src="../assets/images/user/1.png" alt="profile-img" className="rounded profile-img img-fluid avatar-70"/>
+                                                  <img src={profileBg} alt="profile-bg" className="rounded-top img-fluid mb-4"/>
+                                                  <img src={user1} alt="profile-img" className="rounded profile-img img-fluid avatar-70"/>
                                               </div>
                                               <div className="p-3">
                                                   <h5 className="mb-1">JoanDuo@property.com</h5>
                                                   <p className="mb-0">Since 10 march, 2020</p>
                                                   <div className="d-flex align-items-center justify-content-center mt-3">
                                                       <a href="../app/user-profile.html" className="btn border mr-2">Profile</a>
-                                                      <a href="auth-sign-in.html" className="btn border">Sign Out</a>
+                                                      {/* <a href="auth-sign-in.html" className="btn border">Sign Out</a> */}
+                                                      <Link to='/signIn' className="btn border">Sign In</Link>
                                                   </div>
                                               </div>
                                           </div>
