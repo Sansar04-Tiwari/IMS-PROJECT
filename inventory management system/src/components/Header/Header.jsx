@@ -1,10 +1,14 @@
-import React, { useState } from 'react'
+import React, { useState,useContext } from 'react'
 import user from '../../assets/images/user/1.jpg'
 import profileBg from '../../assets/images/page-img/profile-bg.jpg'
 import user1 from '../../assets/images/user/1.png'
 import { Link } from 'react-router-dom'
+import { Context } from '../Contexts/Context'
 
-function Header() {
+function Header(props) {
+
+    const {data} = useContext(Context);
+    console.log("data ",data);
 
   return (
     <div className="iq-top-navbar">
@@ -197,12 +201,9 @@ function Header() {
                                                   <img src={user1} alt="profile-img" className="rounded profile-img img-fluid avatar-70"/>
                                               </div>
                                               <div className="p-3">
-                                                  <h5 className="mb-1">JoanDuo@property.com</h5>
-                                                  <p className="mb-0">Since 10 march, 2020</p>
+                                                  <h5 className="mb-1">{data.user_name}</h5>
                                                   <div className="d-flex align-items-center justify-content-center mt-3">
-                                                      <a href="../app/user-profile.html" className="btn border mr-2">Profile</a>
-                                                      {/* <a href="auth-sign-in.html" className="btn border">Sign Out</a> */}
-                                                      <Link to='/signIn' className="btn border">Sign In</Link>
+                                                      <Link className="btn border">Sign Out</Link>
                                                   </div>
                                               </div>
                                           </div>

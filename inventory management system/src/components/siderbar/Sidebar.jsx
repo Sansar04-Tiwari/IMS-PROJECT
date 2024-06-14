@@ -5,9 +5,6 @@ import { Link } from 'react-router-dom';
 
 function Sidebar() {
 
-    const [dropdown, setDropdown] = useState(false);
-    console.log(dropdown);
-
     return (
         <div className="iq-sidebar  sidebar-default ">
             <div className="iq-sidebar-logo d-flex align-items-center justify-content-between">
@@ -43,12 +40,12 @@ function Sidebar() {
                             <ul id="product" className="iq-submenu collapse" data-parent="#iq-sidebar-toggle">
                                 <li className="">
                                     
-                                    <Link to='/listProduct'>
+                                    <Link to='listproduct'>
                                     <i className="las la-minus"></i><span>List Product</span>
                                     </Link>
                                 </li>
                                 <li className="">
-                                <Link to='/addProduct'>
+                                <Link to='addproduct'>
                                     <i className="las la-minus"></i><span>Add Product</span>
                                     </Link>
                                 </li>
@@ -67,13 +64,13 @@ function Sidebar() {
                             </a>
                             <ul id="inventory" className="iq-submenu collapse" data-parent="#iq-sidebar-toggle">
                                 <li className="">
-                                   <Link to='/listcategory'>
+                                   <Link to='listcategory'>
                                         <i className="las la-minus"></i><span>Total Cost</span>
                                         </Link>
                                 </li>
                                 
                                 <li className="">
-                                <Link to='/addcategory'>
+                                <Link to='addcategory'>
                                         <i className="las la-minus"></i><span>Total Product</span>
                                         </Link>
                                 </li>
@@ -93,13 +90,13 @@ function Sidebar() {
                             </a>
                             <ul id="category" className="iq-submenu collapse" data-parent="#iq-sidebar-toggle">
                                 <li className="">
-                                   <Link to='/listcategory'>
+                                   <Link to='listcategory'>
                                         <i className="las la-minus"></i><span>List Category</span>
                                         </Link>
                                 </li>
                                 
                                 <li className="">
-                                <Link to='/addcategory'>
+                                <Link to='addcategory'>
                                         <i className="las la-minus"></i><span>Add Category</span>
                                         </Link>
                                 </li>
@@ -184,12 +181,12 @@ function Sidebar() {
                                     </a>
                                 </li> */}
                                 <li className="">
-                                    <Link to='/supplier'>
+                                    <Link to='supplier'>
                                         <i className="las la-minus"></i><span>Suppliers</span>
                                     </Link>
                                 </li>
                                 <li className="">
-                                <Link to='/addsupplier'>
+                                <Link to='addsupplier'>
                                         <i className="las la-minus"></i><span>AddSuppliers</span>
                                     </Link>
                                 </li>
