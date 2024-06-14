@@ -26,26 +26,22 @@ function App() {
 
     <div className="wrapper">
       <BrowserRouter>
-        <Routes >
+        <Routes>
+          <Route path='/' element={<SignIn />} />
+          <Route path='/signUp' element={<SignUp />} />
+          <Route path='forgotPassword' element={<ForgotPassword />} />
 
-          <Route path='/' element={<Layout />}>
+          <Route path='dashboard' element={<Layout />}>
             <Route path='' element={<Dashboard />} />
-            <Route path='listProduct' element={<ListProduct />} />
-            <Route path='addProduct' element={<ListCategory />} />
-            <Route path='listcategory' element={<AddProduct />} />
+            <Route path='listproduct' element={<ListProduct />} />
+            <Route path='listcategory' element={<ListCategory />} />
+            <Route path='addproduct' element={<AddProduct />} />
             <Route path='addcategory' element={<AddCategory />} />
             <Route path='addcategory' element={<AddPurchases />} />
             <Route path='addcategory' element={<ListPurchases />} />
             <Route path='addsupplier' element={<AddSupplier />} />
-            <Route path='supplier' element={<Supplier/>} />
-
-
-
-
+            <Route path='supplier' element={<Supplier />} />
           </Route>
-          <Route path='signIn' element={<SignIn />} />
-          <Route path='signUp' element={<SignUp />} />
-          <Route path='forgotPassword' element={<ForgotPassword />} />
         </Routes>
       </BrowserRouter>
     </div>
