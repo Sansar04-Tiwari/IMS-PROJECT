@@ -203,7 +203,7 @@ function Header(props) {
                                               <div className="p-3">
                                                   <h5 className="mb-1">{data.user_name}</h5>
                                                   <div className="d-flex align-items-center justify-content-center mt-3">
-                                                      <Link className="btn border">Sign Out</Link>
+                                                      <Link onClick={'/'} className="btn border">Sign Out</Link>
                                                   </div>
                                               </div>
                                           </div>
