@@ -71,6 +71,45 @@ const AddSupplier = () => {
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>GST Number *</label>
+                                        <input type="text" class="form-control" placeholder="Enter GST Number" required=""/>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Created By *</label>
+                                        <input type="text" class="form-control" placeholder="" required=""/>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Created At *</label>
+                                        <input type="text" class="form-control" placeholder="" required=""/>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Updated By *</label>
+                                        <input type="text" class="form-control" placeholder="" required=""/>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Updated At *</label>
+                                        <input type="text" class="form-control" placeholder="" required=""/>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
                             </div>                            
                             <button type="submit" class="btn btn-primary mr-2 disabled">Add Supplier</button>
                             <button type="reset" class="btn btn-danger">Reset</button>

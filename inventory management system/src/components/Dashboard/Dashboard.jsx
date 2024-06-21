@@ -1,6 +1,11 @@
-import React from 'react'
+import { useContext } from 'react';
+import React  from 'react'
+import { Context } from '../Contexts/Context';
 
-const Dashboard = () => {
+const Dashboard = (props) => {
+
+    const {data} = useContext(Context);
+    console.log("data ",data);
     return (
         <>
             <div className="content-page">
@@ -9,7 +14,7 @@ const Dashboard = () => {
                         <div className="col-lg-4">
                             <div className="card card-transparent card-block card-stretch card-height border-none">
                                 <div className="card-body p-0 mt-lg-2 mt-0">
-                                    <h3 className="mb-3">Hi , Good Morning</h3>
+                                    <h3 className="mb-3">Hi , {data.user_name}</h3>
                                     <p className="mb-0 mr-4">Your dashboard gives you views of key performance or business process.</p>
                                 </div>
                             </div>
